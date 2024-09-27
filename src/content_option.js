@@ -1,74 +1,83 @@
-const logotext = "JOHN";
+const logotext = "Renuka";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Renuka Nandikolla",
+    description: "I’m Renuka Nandikolla _ Recently Graduated Bachelor's in Computer science",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Renuka Nandikolla",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I’m Renuka Nandikolla _ Recently Graduated Bachelor's in Computer science_Looking for Good Opportunity in Software Field",
+    your_img_url: "C:\Users\RENUKA\Desktop\react-portfolio\src\assets\images\renuka.jpg",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "👩‍💻 I’m Renuka Nandikolla, a passionate Computer Science graduate skilled in Python, C/C++, AWS, Docker, UI & UX Design, and frontend development (HTML, CSS, JavaScript, React.js). My journey in tech started during my studies, evolving into a strong interest in crafting efficient, scalable software solutions.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Frontend Developer Intern",
+        where: "I-ray it solutions AB Stockholm,Sweden ",
+        date: "march 2024-August 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Python devloper intern",
+        where: "Infosys ,India",
+        date: "October 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Python devloper intern",
+        where: "AICTE,India",
+        date: "June 2023",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Python, Django",
+               
         value: 90,
     },
     {
-        name: "Djano",
+        name: "HTML, CSS, Javascript",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "React.js",
         value: 80,
     },
     {
-        name: "React",
+        name: "Machnie Learning",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Sql",
         value: 85,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const Projects = [{
+        title: " Bachelor Thesis on Performance Evaluation of ML Models for Sonar-based Mine Detection",
+        description: "Conducted a comprehensive evaluation of various machine learning algorithms (LightGBM, MLP, Random Forest, KNN) for classifying underwater objects using sonar frequencies, comparing their effectiveness on original and Gaussian noise-augmented datasets to assess robustness and reliability.",
+        
+        
+        
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " Cloud-Based Multitier Web Application on AWS",
+        description: 
+"Deployed a scalable and reliable multitier web application on AWS, effectively managing cloud Projects for optimal performance and availability while demonstrating hands-on worktimeline with cloud infrastructure.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "TEXT2IMAGE Mobile App Development",
+        description: "Co-developed the TEXT2IMAGE mobile app using Flutter and the Stable Diffusion API, enabling users to generate images from text prompts while leveraging Firebase for real-time data management and scalability.",
+    },
+    {
+        title: "Frontend Developer Intern at I-Ray IT AB",
+        description: "Developed and maintained responsive, user-friendly interfaces using React.js, integrated UI with backend systems, and collaborated with designers to implement modern features, while creating a resource tracker app that showcased advanced problem-solving skills and expertise in frontend development.",
     },
 ];
 
@@ -136,9 +145,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "renuka1682003@gmail.com",
+    YOUR_FONE: "+46 0760525586, +91 9121739266",
+    description: "Feel free to reach out for inquiries, collaborations, or just to connect. I look forward to hearing from you!.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +156,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Renuma1618?tab=repositories",
+
+    linkedin: "https://www.linkedin.com/in/renuka-nandikolla-b98a46259",
+
 };
 export {
     meta,
@@ -158,7 +167,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+    Projects,
     introdata,
     contactConfig,
     socialprofils,
